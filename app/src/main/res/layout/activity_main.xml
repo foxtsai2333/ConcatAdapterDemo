@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="STRIX-RTX3080-O10G-GAMING"
+                android:text="@string/product_name"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="$34,490"
+                android:text="@string/product_price"
                 android:textSize="20sp" />
 
             <LinearLayout
@@ -56,49 +56,49 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="顯示晶片：NVIDIA® GeForce RTX™ 3080"
+                    android:text="@string/spec1"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="記憶體：GDDR6X 10GB"
+                    android:text="@string/spec2"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="核心時脈：1905MHz (電競) / 1935MHz (超頻)"
+                    android:text="@string/spec3"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="記憶體通道寬度：320bit"
+                    android:text="@string/spec4"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="電源接口：PCIe 8pin x 3"
+                    android:text="@string/spec5"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="輸出介面：DP x 3 / HDMI x 2"
+                    android:text="@string/spec6"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="顯卡長度：231.85 x 14.01 x 5.78 公分"
+                    android:text="@string/spec7"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -126,7 +126,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="NVIDIA Ampere 串流多處理器：全新的 Ampere 串流多處理器是世界上最快、最高效的 顯示卡架構，可提升 2 倍 FP32 輸送量，帶來優異效能。"
+                        android:text="@string/feature1"
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -146,7 +146,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="第二代 RT 核心：體驗比第一代 RT 核心兩倍的輸送量，再加上支援RT和著色計算，可將光線追蹤提升到全新水平。"
+                        android:text="@string/feature2"
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -166,7 +166,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="第三代 Tensor 核心：結構性稀疏和先進人工智慧演算法（例如 DLSS）使輸送量提升到 2 倍。現在，該核心可支援高達 8K 的更新率，極大提升遊戲效能和全新的人工智慧功能。"
+                        android:text="@string/feature3"
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -186,7 +186,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="軸向式風扇已進行調整，包括使用更多的扇葉以及反向旋轉的中央風扇。"
+                        android:text="@string/feature4"
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -206,7 +206,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="Super Alloy Power II 包含頂級鋁合金電感、固態聚合物電容器及多種高電流功率級。"
+                        android:text="@string/feature5"
                         android:textSize="16sp" />
 
                 </LinearLayout>

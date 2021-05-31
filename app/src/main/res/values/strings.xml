@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">ConcatAdapterDemo</string>
+    <string name="product_name">STRIX-RTX3080-O10G-GAMING</string>
+    <string name="product_price">$34,490</string>
+    <string name="spec1">顯示晶片：NVIDIA® GeForce RTX™ 3080</string>
+    <string name="spec2">記憶體：GDDR6X 10GB</string>
+    <string name="spec3">核心時脈：1905MHz (電競) / 1935MHz (超頻)</string>
+    <string name="spec4">記憶體通道寬度：320bit</string>
+    <string name="spec5">電源接口：PCIe 8pin x 3</string>
+    <string name="spec6">輸出介面：DP x 3 / HDMI x 2</string>
+    <string name="spec7">顯卡長度：231.85 x 14.01 x 5.78 公分</string>
+    <string name="feature1">NVIDIA Ampere 串流多處理器：全新的 Ampere 串流多處理器是世界上最快、最高效的 顯示卡架構，可提升 2 倍 FP32 輸送量，帶來優異效能。</string>
+    <string name="feature2">第二代 RT 核心：體驗比第一代 RT 核心兩倍的輸送量，再加上支援RT和著色計算，可將光線追蹤提升到全新水平。</string>
+    <string name="feature3">第三代 Tensor 核心：結構性稀疏和先進人工智慧演算法（例如 DLSS）使輸送量提升到 2 倍。現在，該核心可支援高達 8K 的更新率，極大提升遊戲效能和全新的人工智慧功能。</string>
+    <string name="feature4">軸向式風扇已進行調整，包括使用更多的扇葉以及反向旋轉的中央風扇。</string>
+    <string name="feature5">Super Alloy Power II 包含頂級鋁合金電感、固態聚合物電容器及多種高電流功率級。</string>
 </resources>
