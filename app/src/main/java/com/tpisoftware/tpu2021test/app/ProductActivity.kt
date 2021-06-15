@@ -35,7 +35,10 @@ class ProductActivity : AppCompatActivity() {
         val specAdapter = ProductSpecAdapter(spec)
         val featureAdapter = ProductFeatureAdapter(feature)
         // 連在一起
-        val concatAdapter = ConcatAdapter(imageAdapter, titleAdapter, specAdapter, featureAdapter)
+        //val concatAdapter = ConcatAdapter(imageAdapter, titleAdapter, specAdapter, featureAdapter)
+        // 共用 cache pool
+        val config = ConcatAdapter.Config.Builder().setIsolateViewTypes(false).build()
+        val concatAdapter = ConcatAdapter(config, imageAdapter, titleAdapter, specAdapter, featureAdapter)
         // 設定 recyclerview
         binding.productRecyclerview.apply {
             layoutManager = LinearLayoutManager(

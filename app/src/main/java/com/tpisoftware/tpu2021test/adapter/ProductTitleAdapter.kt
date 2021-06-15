@@ -9,7 +9,7 @@ import com.tpisoftware.tpu2021test.adapter.viewholder.ProductTitleHolder
 class ProductTitleAdapter(private val itemList: Array<String>) : RecyclerView.Adapter<ProductTitleHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductTitleHolder {
         return ProductTitleHolder(LayoutInflater.from(parent.context)
-            .inflate(R.layout.listitem_product_tittle, parent, false))
+            .inflate(R.layout.listitem_product_title, parent, false))
     }
 
     override fun onBindViewHolder(holder: ProductTitleHolder, position: Int) {
@@ -20,6 +20,10 @@ class ProductTitleAdapter(private val itemList: Array<String>) : RecyclerView.Ad
             productNameText.text = texts[0]
             productPriceText.text = texts[1]
         }
+    }
+
+    override fun getItemViewType(position: Int): Int {
+        return R.layout.listitem_product_title
     }
 
     override fun getItemCount(): Int = itemList.size

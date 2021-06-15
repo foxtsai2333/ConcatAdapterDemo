@@ -18,5 +18,9 @@ class ProductSpecAdapter(private val itemList: Array<String>) : RecyclerView.Ada
         }
     }
 
+    override fun getItemViewType(position: Int): Int {
+        return R.layout.listitem_product_spec
+    }
+
     override fun getItemCount(): Int = itemList.size
 }

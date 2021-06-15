@@ -18,5 +18,9 @@ class ProductFeatureAdapter(private val itemList: Array<String>) : RecyclerView.
         }
     }
 
+    override fun getItemViewType(position: Int): Int {
+        return R.layout.listitem_product_feature
+    }
+
     override fun getItemCount(): Int = itemList.size
 }

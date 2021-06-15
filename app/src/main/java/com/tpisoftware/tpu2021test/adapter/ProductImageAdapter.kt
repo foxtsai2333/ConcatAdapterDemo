@@ -28,5 +28,9 @@ class ProductImageAdapter(private val itemList: Array<String>) : RecyclerView.Ad
         }
     }
 
+    override fun getItemViewType(position: Int): Int {
+        return R.layout.listitem_product_image
+    }
+
     override fun getItemCount(): Int = itemList.size
 }
